@@ -53,7 +53,7 @@ body {
     padding: 1rem .5rem;
 }
 
-.title.container{
+.title.container {
     width: 1180px;
     margin: 0 auto;
     text-align: left;
@@ -101,7 +101,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.btn.freeTrial{
+.btn.freeTrial {
     padding: 1rem 1.5rem;
     color: white;
     border: none;
@@ -113,7 +113,7 @@ body {
     max-width: 75%;
 }
 
-.firstCol>i{
+.firstCol>i {
     margin: 2rem 0;
     font-size: 2rem;
 }
@@ -121,35 +121,35 @@ body {
 
 /* THREE COLUMN SECTION */
 
-.small-container{
+.small-container {
     width: 980px;
     margin: 0 auto;
 
 }
 
-.radioTitle{
+.radioTitle {
     font-weight: 100;
     margin-top: 12rem;
     margin-bottom: 3rem;
 }
 
-.businessTitle{
+.businessTitle {
     font-size: 2em;
     margin-bottom: 3rem;
 }
 
-.monthlySub{
+.monthlySub {
     margin-right: 3rem;
 }
 
-.threeCols{
+.threeCols {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
 }
 
 
-.midCol{
+.midCol {
     width: calc(100% / 3);
     text-align: center;
     border: 1px solid #B3A39E;
@@ -159,55 +159,55 @@ body {
     min-height: 350px;
 }
 
-.userSpace{
+.userSpace {
     padding: .7rem 0;
     border-bottom: 1px solid #B3A39E;
     margin-bottom: 2rem;
 }
 
-.userSpace>i{
+.userSpace>i {
     margin-right: .2rem;
 }
 
 
-.mainSpace{
+.mainSpace {
     text-align: start;
     padding-left: 2rem;
     font-weight: 100;
 }
 
 
-.colTitle{
+.colTitle {
     margin-bottom: 1rem;
     letter-spacing: 2px;
 }
 
-.price{
+.price {
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.subTime{
+.subTime {
     color: #B3A39E;
     margin-bottom: 2rem;
 }
 
-.mainList{
+.mainList {
     list-style-type: none;
     margin-top: 2rem;
 }
 
-.mainListItems{
+.mainListItems {
     padding: 1rem .8rem;
 }
 
-.fa-solid{
+.fa-solid {
     margin-right: .5rem;
 }
 
 
-.btn.col{
-    display:  block;
+.btn.col {
+    display: block;
     color: white;
     margin: 2rem 0;
     border: none;
@@ -215,11 +215,11 @@ body {
     letter-spacing: 2px;
 }
 
-.midLink{
+.midLink {
     margin-bottom: 2rem;
 }
 
-.fa-check{
+.fa-check {
     color: #0061FF;
 }
 
