@@ -121,10 +121,53 @@ body {
 
 /* THREE COLUMN SECTION */
 
+.small-container{
+    width: 980px;
+    margin: 0 auto;
+
+}
+
+.radioTitle{
+    margin-top: 12rem;
+    margin-bottom: 3rem;
+}
+
+.businessTitle{
+    font-size: 2em;
+    margin-bottom: 3rem;
+}
+
+.monthlySub{
+    margin-right: 3rem;
+}
+
+.threeCols{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
+.midCol{
+    width: calc(100% / 3);
+    text-align: center;
 
 
 
 
+    min-height: 350px;
+    background-color: red;
+    border: 1px solid lightgray;
+}
+
+.userSpace{
+    padding: .7rem 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.userSpace>i{
+    margin-right: .2rem;
+}
 
 
 /* FOOTER */
