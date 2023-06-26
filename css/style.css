@@ -179,6 +179,7 @@ body {
 
 .colTitle{
     margin-bottom: 1rem;
+    letter-spacing: 2px;
 }
 
 .price{
@@ -191,7 +192,35 @@ body {
     margin-bottom: 2rem;
 }
 
-.fa-user{
+.mainList{
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+.mainListItems{
+    padding: 1rem .8rem;
+}
+
+.fa-solid{
     margin-right: .5rem;
 }
+
+
+.btn.col{
+    display:  block;
+    color: white;
+    margin: 2rem 0;
+    border: none;
+    padding: .8rem 1.5rem;
+    letter-spacing: 2px;
+}
+
+.midLink{
+    margin-bottom: 2rem;
+}
+
+.fa-check{
+    color: #0061FF;
+}
+
 /* FOOTER */
