@@ -128,6 +128,7 @@ body {
 }
 
 .radioTitle{
+    font-weight: 100;
     margin-top: 12rem;
     margin-bottom: 3rem;
 }
@@ -151,18 +152,17 @@ body {
 .midCol{
     width: calc(100% / 3);
     text-align: center;
-
+    border: 1px solid #B3A39E;
 
 
 
     min-height: 350px;
-    background-color: red;
-    border: 1px solid lightgray;
 }
 
 .userSpace{
     padding: .7rem 0;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #B3A39E;
+    margin-bottom: 2rem;
 }
 
 .userSpace>i{
@@ -170,4 +170,28 @@ body {
 }
 
 
+.mainSpace{
+    text-align: start;
+    padding-left: 2rem;
+    font-weight: 100;
+}
+
+
+.colTitle{
+    margin-bottom: 1rem;
+}
+
+.price{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.subTime{
+    color: #B3A39E;
+    margin-bottom: 2rem;
+}
+
+.fa-user{
+    margin-right: .5rem;
+}
 /* FOOTER */
