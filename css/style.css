@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
 }
 
-.disCol {
+.disFlex {
     display: flex;
 }
 
@@ -34,8 +34,8 @@ body {
 .small-container {
     width: 980px;
     margin: 0 auto;
-
 }
+
 
 /* DEBUG */
 
@@ -84,6 +84,11 @@ body {
     color: white;
 }
 
+.textCol>i{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
 /* MAIN */
 
 /* HERO SECTION */
@@ -125,10 +130,10 @@ body {
     max-width: 75%;
 }
 
-.firstCol>i {
-    margin: 2rem 0;
-    font-size: 2rem;
-}
+/* 
+.col-30{
+    width: calc(100% / 3);
+} */
 
 
 /* THREE COLUMN SECTION */
