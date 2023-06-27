@@ -329,19 +329,25 @@ body {
 
 /* TEAMS SECTION*/
 
-.teamSection {
+.team-section {
     margin: 3rem 0;
 }
 
-.teamHeader {
+.team-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 3rem;
-    margin: 3rem 0;
+    margin: 6rem 0;
 }
 
-.boxRow {
+.team-title {
+    font-size: 2rem;
+    font-weight: 600;
+    width: 55%;
+    line-height: 50px;
+    letter-spacing: 3px;
 }
+
 
 .team-card {
     width: calc(100% / 3);
@@ -350,7 +356,7 @@ body {
 }
 
 
-.left-img{
+.brand-img {
     width: calc(100% / 2);
     height: calc(100% / 2);
     padding: 4rem;
@@ -394,5 +400,26 @@ body {
     font-weight: 300;
 }
 
+
+.darkred-bg {
+    background-color: #D5001F;
+}
+
+.azure-bg {
+    background-color: #B4D0E7;
+}
+
+.blue-bg {
+    background-color: #0D2481;
+}
+
+.yellow-bg {
+    background-color: #FED831;
+}
+
+
+.brand-img>img {
+    color: white;
+}
 
 /* FOOTER */
