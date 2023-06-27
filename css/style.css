@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
 }
 
-.disFlex {
+.flex {
     display: flex;
 }
 
@@ -75,7 +75,7 @@ body {
     color: black;
 }
 
-.headerLinks.btn.top{
+.headerLinks.btn.top {
     padding-top: .3rem;
     padding-bottom: .3em;
 }
@@ -84,7 +84,7 @@ body {
     color: white;
 }
 
-.textCol>i{
+.textCol>i {
     margin-top: 2rem;
     font-size: 2rem;
 }
@@ -130,14 +130,8 @@ body {
     max-width: 75%;
 }
 
-/* 
-.col-30{
-    width: calc(100% / 3);
-} */
-
 
 /* THREE COLUMN SECTION */
-
 
 .radioTitle {
     font-weight: 100;
@@ -146,7 +140,7 @@ body {
 }
 
 .businessTitle {
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 3rem;
 }
 
@@ -157,9 +151,9 @@ body {
 .threeCols {
     display: flex;
     justify-content: center;
+    font-size: 13px;
     gap: 1.5rem;
 }
-
 
 .midCol {
     width: calc(100% / 3);
@@ -232,8 +226,34 @@ body {
     margin-bottom: 1.5rem;
 }
 
+
+.midLink::after {
+    margin-top: 2rem;
+    border-bottom: .5 solid #B3A39E;
+    width: 30px;
+    display: block;
+    content: "";
+}
+
+
 .fa-check {
     color: #0061FF;
 }
+
+
+.row {
+    width: 100%;
+    margin-top: 1.5rem;
+    text-align: center;
+    border: 1px solid #B3A39E;
+
+}
+
+.rowParagraph {
+    font-weight: 500;
+}
+
+
+.mainSpace.flex {}
 
 /* FOOTER */
