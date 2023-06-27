@@ -76,6 +76,11 @@ body {
     color: black;
 }
 
+.headerLinks.btn.top{
+    padding-top: .2rem;
+    padding-bottom: .4rem;
+}
+
 .headerLinks.btn.top>a {
     color: white;
 }
