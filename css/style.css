@@ -16,7 +16,7 @@ body {
 
 /* GENERICS */
 
-.mid-container {
+.container {
     width: 1180px;
     margin: 0 auto;
 }
@@ -31,6 +31,12 @@ body {
     padding-bottom: .5rem;
 }
 
+
+.small-container {
+    width: 980px;
+    margin: 0 auto;
+
+}
 
 /* DEBUG */
 
@@ -94,10 +100,10 @@ body {
     height: 80vh;
 }
 
-.mainP {
+.heroParagraph {
     font-size: 1.3rem;
     line-height: 1.5rem;
-    font-weight: normal;
+    font-weight: 100;
     margin-bottom: 2rem;
 }
 
@@ -121,11 +127,6 @@ body {
 
 /* THREE COLUMN SECTION */
 
-.small-container {
-    width: 980px;
-    margin: 0 auto;
-
-}
 
 .radioTitle {
     font-weight: 100;
