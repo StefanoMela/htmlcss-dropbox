@@ -198,11 +198,11 @@ body {
 }
 
 .mainListItems {
-    padding: 1rem .8rem;
+    padding: 1rem 0;
 }
 
 .fa-solid {
-    margin-right: .5rem;
+    margin-right: .3rem;
 }
 
 
@@ -216,7 +216,8 @@ body {
 }
 
 .midLink {
-    margin-bottom: 2rem;
+    padding-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .fa-check {
