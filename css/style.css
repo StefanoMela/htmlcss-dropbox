@@ -326,4 +326,73 @@ body {
     margin: 1rem 0;
 }
 
+
+/* TEAMS SECTION*/
+
+.teamSection {
+    margin: 3rem 0;
+}
+
+.teamHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+.boxRow {
+}
+
+.team-card {
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.left-img{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    padding: 4rem;
+}
+
+
+.green-bg {
+    background-color: #A3D39B;
+    border: 1rem solid #D1E9CD;
+}
+
+.magenta-bg {
+    background-color: #61082B;
+}
+
+.lightblue-bg {
+    background-color: #0093CE;
+}
+
+.red-bg {
+    background-color: #FF1C1C;
+}
+
+.team-card.center {
+    background-color: #F5F5F5;
+    padding: 2rem;
+    text-align: left;
+    line-height: 20px;
+}
+
+.center-img::after {
+    margin-top: 2rem;
+    border-bottom: .5px solid #B3A39E;
+    width: 100px;
+    display: block;
+    content: "";
+}
+
+.center-text,
+.center-signature {
+    font-weight: 300;
+}
+
+
 /* FOOTER */
