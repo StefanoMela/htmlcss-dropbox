@@ -251,11 +251,11 @@ body {
 
 }
 
-.left-col{
+.left-col {
     max-width: 650px;
 }
 
-.right-col{
+.right-col {
     display: flex;
     flex-grow: 1;
     justify-content: flex-end;
@@ -274,15 +274,15 @@ body {
     gap: 2rem;
 }
 
-.img-col{
+.img-col {
     width: 60%;
 }
 
-.text-col{
+.text-col {
     width: 40%;
 }
 
-.col-title{
+.col-title {
     font-size: 2rem;
     padding: 2rem 0;
 }
@@ -297,6 +297,33 @@ body {
     background-color: #fff;
     font-size: 18px;
     padding: .8rem 1.5rem;
+}
+
+
+/* CARD SECTION */
+
+.cardSection {
+    padding: 3rem 0;
+}
+
+.cardHeader {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+}
+
+.cardRow {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card {
+    width: calc((100% / 3) - 2rem);
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    margin: 1rem 0;
 }
 
 /* FOOTER */
