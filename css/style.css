@@ -59,20 +59,11 @@ body {
     padding: 1rem .5rem;
 }
 
-.title.container {
-    width: 1180px;
-    margin: 0 auto;
-    text-align: left;
-    font-size: 5rem;
-    padding: 3.5rem 0;
-}
-
 .headerList {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
 }
-
 
 .headerLinks {
     display: inline-block;
@@ -93,12 +84,23 @@ body {
 
 /* HERO SECTION */
 
+
 .hero {
     padding-top: 72px;
     width: 100%;
     background-color: #B4D0E7;
     height: 80vh;
 }
+
+
+.title.container {
+    width: 1180px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 5rem;
+    padding: 3.5rem 0;
+}
+
 
 .heroParagraph {
     font-size: 1.3rem;
