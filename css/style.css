@@ -31,7 +31,6 @@ body {
     padding-bottom: .5rem;
 }
 
-
 .small-container {
     width: 980px;
     margin: 0 auto;
@@ -50,8 +49,8 @@ body {
     width: 100%;
     color: black;
     background-color: #FFFFFF;
-    font-family: 'Barlow', sans-serif;
     font-size: 1rem;
+    font-weight: 100;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -77,8 +76,8 @@ body {
 }
 
 .headerLinks.btn.top{
-    padding-top: .2rem;
-    padding-bottom: .4rem;
+    padding-top: .3rem;
+    padding-bottom: .3em;
 }
 
 .headerLinks.btn.top>a {
