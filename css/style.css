@@ -426,9 +426,8 @@ body {
     background-color: #FED831;
 }
 
-
 .brand-img>img {
-    color: white;
+    filter: invert(1);
 }
 
 /* FOOTER */
