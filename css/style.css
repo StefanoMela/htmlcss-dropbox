@@ -338,18 +338,18 @@ body {
 
 /* TEAMS SECTION*/
 
-.team-section {
+.brand-section {
     margin: 3rem 0;
 }
 
-.team-header {
+.brand-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 3rem;
     margin: 6rem 0;
 }
 
-.team-title {
+.brand-title {
     font-size: 2rem;
     font-weight: 600;
     width: 55%;
@@ -358,7 +358,7 @@ body {
 }
 
 
-.team-card {
+.brand-card {
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
@@ -389,7 +389,7 @@ body {
     background-color: #FF1C1C;
 }
 
-.team-card.center {
+.brand-card.center {
     background-color: #F5F5F5;
     padding: 2rem;
     text-align: left;
@@ -429,5 +429,31 @@ body {
 .brand-img>img {
     filter: invert(1);
 }
+
+
+.azure-bg.flex {
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 8rem;
+}
+
+
+.bring-dropbox {
+    color: #61082B;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 500px;
+}
+
+
+.btn.business-free {
+    background-color: #fff;
+    padding: 1rem 3rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
 
 /* FOOTER */
