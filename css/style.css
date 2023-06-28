@@ -58,33 +58,33 @@ body {
     padding: 1rem .5rem;
 }
 
-.headerList {
+.header-list {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
 }
 
-.headerLinks {
+.header-links {
     display: inline-block;
     list-style-type: none;
     padding: 0 1.5rem;
 }
 
-.headerLinks>a {
+.header-links>a {
     text-decoration: none;
     color: black;
 }
 
-.headerLinks.btn.top {
+.header-links.btn.top {
     padding-top: .3rem;
     padding-bottom: .3em;
 }
 
-.headerLinks.btn.top>a {
+.header-links.btn.top>a {
     color: white;
 }
 
-.textCol>i {
+.text_col>i {
     margin-top: 2rem;
     font-size: 2rem;
 }
@@ -111,14 +111,14 @@ body {
 }
 
 
-.heroParagraph {
+.hero-paragraph {
     font-size: 1.3rem;
     line-height: 1.5rem;
     font-weight: 100;
     margin-bottom: 2rem;
 }
 
-.btn.freeTrial {
+.btn.free-trial {
     padding: 1rem 1.5rem;
     color: white;
     border: none;
@@ -133,53 +133,53 @@ body {
 
 /* THREE COLUMN SECTION */
 
-.radioTitle {
+.radio-title {
     font-weight: 100;
     margin-top: 12rem;
     margin-bottom: 3rem;
 }
 
-.businessTitle {
+.business-title {
     font-size: 2rem;
     margin-bottom: 3rem;
 }
 
-.monthlySub {
+.monthly-sub {
     margin-right: 3rem;
 }
 
-.threeCols {
+.three-cols {
     display: flex;
     justify-content: center;
     font-size: 13px;
     gap: 1.5rem;
 }
 
-.midCol {
+.mid-col {
     width: calc(100% / 3);
     text-align: center;
     border: 1px solid #B3A39E;
 }
 
-.userSpace {
+.user-space {
     padding: .7rem 0;
     border-bottom: 1px solid #B3A39E;
     margin-bottom: 2rem;
 }
 
-.userSpace>i {
+.user-space>i {
     margin-right: .2rem;
 }
 
 
-.mainSpace {
+.main-space {
     text-align: start;
     font-weight: 100;
     padding: 0 1.5rem;
 }
 
 
-.colTitle {
+.col-title {
     margin-bottom: 1rem;
     letter-spacing: 2px;
 }
@@ -189,17 +189,17 @@ body {
     margin-bottom: 1rem;
 }
 
-.subTime {
+.sub-time {
     color: #B3A39E;
     margin-bottom: 2rem;
 }
 
-.mainList {
+.main-list {
     list-style-type: none;
     margin: 2rem 0;
 }
 
-.mainListItems {
+.main-list-items {
     padding: 1rem 0;
 }
 
@@ -216,14 +216,14 @@ body {
     letter-spacing: 2px;
 }
 
-.buyNow_link {
+.buy-now-link {
     margin-top: 3rem;
     padding-bottom: 3rem;
     margin-bottom: .5rem;
 }
 
 
-.buyNow_link::after {
+.buy-now-link::after {
     margin-top: 2rem;
     border-bottom: .5px solid #B3A39E;
     width: 30px;
@@ -237,7 +237,7 @@ body {
 }
 
 
-.colRow {
+.col-row {
     width: 100%;
     margin-top: 1.5rem;
     text-align: center;
@@ -245,7 +245,7 @@ body {
     padding-bottom: 3rem;
 }
 
-.rowParagraph {
+.row-paragraph {
     font-weight: 500;
     margin-bottom: 1.5rem;
 
@@ -265,7 +265,7 @@ body {
 /* PARTNER SECTION */
 
 
-.partnerSection {
+.partner-section {
     margin: 6rem 0;
 }
 
@@ -302,16 +302,16 @@ body {
 
 /* CARD SECTION */
 
-.cardSection {
+.card-section {
     padding: 3rem 0;
 }
 
-.cardHeader {
+.card-header {
     font-size: 3rem;
     margin-bottom: 6rem;
 }
 
-.cardRow {
+.card-row {
     width: 100%;
     flex-wrap: wrap;
     gap: 2rem;
@@ -321,7 +321,7 @@ body {
     width: calc((100% / 3) - 2rem);
 }
 
-.cardTitle {
+.card-title {
     font-size: 1.5rem;
     margin: 1rem 0;
 }
