@@ -151,7 +151,7 @@ body {
 .three-cols {
     display: flex;
     justify-content: center;
-    font-size: 13px;
+    font-size: 12px;
     gap: 1.5rem;
 }
 
@@ -209,6 +209,7 @@ body {
 
 .main-list-items {
     padding: 1rem 0;
+    display: flex;
 }
 
 .fa-solid {
