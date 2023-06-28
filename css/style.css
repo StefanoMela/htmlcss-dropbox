@@ -479,7 +479,7 @@ body {
     justify-content: space-between;
     font-weight: bold;
     padding: 3rem 0;
-    border-top: 1px solid black ;
+    border-top: 1px solid black;
 }
 
 
@@ -490,7 +490,7 @@ body {
 
 /* FOOTER */
 
-.footer-section{
+.footer-section {
     background-color: black;
     padding: 3rem 0;
 }
